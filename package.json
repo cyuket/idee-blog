@@ -3,9 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@app-masters/react-cloudinary-uploader": "^0.1.41",
+    "@material-ui/core": "^3.9.3",
+    "@material-ui/icons": "^3.0.2",
+    "bootstrap-4-react": "^0.0.58",
+    "draft-js": "^0.10.5",
+    "draftjs-to-html": "^0.8.4",
+    "firebase": "^5.9.2",
+    "html-to-draftjs": "^1.4.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "2.1.8"
+    "react-draft-wysiwyg": "^1.13.2",
+    "react-froala-wysiwyg": "^2.9.4",
+    "react-markdown": "^4.0.6",
+    "react-reveal": "^1.2.2",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "2.1.8",
+    "react-trix-editor": "^1.0.3"
   },
   "scripts": {
     "start": "react-scripts start",

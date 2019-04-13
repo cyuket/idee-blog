@@ -1,0 +1,39 @@
+
+header .header_logo {
+    flex-grow: 1;
+    width: 100%;
+    float: right;
+    display: inherit;
+    position: absolute;
+    align-items: center;
+}
+.nav{
+position: absolute;
+width: 422px;
+/* height: 36px; */
+left: 889px;
+top: 3px;
+
+}
+header .header_logo_venue {
+    font-family: Reem Kufi;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: normal;
+    text-transform: capitalize;
+    /* float: right; */
+}
+
+.active {
+    color: #00C8FF;
+    border-color: #00C8FF;   
+}
+
+li{
+   
+    display: inline;
+    
+    margin: 0% 1% 0% 1%;
+    /* float: right; */
+}
