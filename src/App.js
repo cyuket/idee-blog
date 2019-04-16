@@ -3,7 +3,7 @@ import Header from './componets/Header/Header';
 import BlogHome from "./componets/blog/BlogHome"
 // import Dashboard from  "./componets/dashboard/dasboard"
 // import PrimarySearchAppBar from './componets/Header/test'
-import Description from './componets/Home/Description'
+// import Description from './componets/Home/Description'
 // import './resources/styles.css';
 
 import './App.css'

@@ -1,116 +1,111 @@
 .blog-wrapper {
-    /* width: 512px;
+  /* width: 512px;
      height: 318px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     */
-    font-family: Reem Kufi;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 25px;
-    line-height: normal;
-    text-transform: capitalize;
-    /* border-radius: 10px; */
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    color: #222222
+  font-family: Reem Kufi;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: normal;
+  text-transform: capitalize;
+  /* border-radius: 10px; */
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  color: #222222;
+}
+
+.blog-wrapper:hover {
+  
+  box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.25);
 }
 
 .mainContainer {
-    margin-top: 3%;
-    width: 60%;
-    margin-left: 15%;
-    margin-right: 15%;
+  margin-top: 3%;
+  width: 60%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
-
 .row {
-    display: flex;
-    flex: "flex-wrap";
-    width: 100%
+  display: flex;
+  flex: "flex-wrap";
+  width: 100%;
 }
 
 .row div {
-    /* width: 412px;
+  /* width: 412px;
     height: 400px; */
-    margin: 1%;
+  margin: 1%;
 }
 
 .ImageDiv img {
-    width: 98%;
-    height: 200px;
-    justify-content: center;
+  width: auto;
+  height: 200px;
+  justify-content: center;
 }
 
 .title {
-    
-    font-family: Reem Kufi;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    color:#222222;
-    text-transform: capitalize;
-
+  font-family: Reem Kufi;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  color: #222222;
+  text-transform: capitalize;
 }
 
 .description {
-    
-    font-family: Reem Kufi;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: normal;
-    text-transform: capitalize;
-
-    color: #5A5A5A;
-
+  font-family: Reem Kufi;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: normal;
+  text-transform: capitalize;
+  color: #5a5a5a;
 }
-.title:hover,.description:hover{
-color: #00C8FF;
-text-decoration: none;
 
+.title:hover,
+.description:hover {
+  color: #00c8ff;
+  text-decoration: none;
 }
 
 .line {
-    border: 0.5px solid #000000;
-    width: 80%;
-    margin-left: 10%
+  border: 0.5px solid #000000;
+  width: 80%;
+  margin-left: 10%;
 }
 
 .date {
-    margin-left: 15px;
-    font-family: Reem Kufi;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: normal;
-    text-transform: capitalize;
-
-    color: #051D24;
-
+  margin-left: 15px;
+  font-family: Reem Kufi;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: normal;
+  text-transform: capitalize;
+  color: #051d24;
 }
 
-@media(min-width: 300px) {
-    .mainContainer {
-        margin-top: 10%;
-        margin-left: 5%;
-        margin-right: -5%;
-
-    }
-
-    .row div {
-        width: 312px;
-        height: 400px;
-        margin: 1%;
-    }
+@media (min-width: 300px) {
+  .mainContainer {
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: -5%;
+  }
+  .row div {
+    width: 312px;
+    height: 400px;
+    margin: 1%;
+  }
 }
 
-@media(min-width: 900px) {
-    .mainContainer {
-        margin-top: 3%;
-        margin-left: 10%;
-        margin-right: 15%;
-    }
-
-    .row div {
-        width: 512px;
-height: 512px;
-        /* margin: 1%; */
-    }
+@media (min-width: 900px) {
+  .mainContainer {
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 15%;
+  }
+  .row div {
+    width: 512px;
+    height: 512px;
+    /* margin: 1%; */
+  }
 }
