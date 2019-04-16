@@ -18,6 +18,7 @@ const PostCard =  (props)=> {
                     delay ={1000}
                 >
                     {/* <div></div> */}
+                    <br />
                     <img src={props.image}/>
                 </Zoom>
                 <Bounce

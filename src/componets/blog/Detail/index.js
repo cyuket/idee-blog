@@ -143,10 +143,10 @@ export default class Detail extends Component {
         </div>
         <div>
 
-          <img src = {
+          <img className="article-image" alt='ariticle'  src = {
             article.featuredImage
           }
-          className = "article-image" /> 
+         /> 
         </div> 
         <div>
           <ReactMarkdown className = "article-content"
